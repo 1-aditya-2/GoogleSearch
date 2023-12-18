@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <title>Google</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/search.ico">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+    <main>
+        <div id="Starting">
+            <div id="google-image">
+                <img src="images/GoogleImage.png">
+            </div>
+            <div id="search-bar">
+                <!-- <i class="fas fa-search"></i> -->
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" id="search-input" placeholder="Search...">
+                <img src="images/google-voice.png">&nbsp;
+                <img src="images/lens.png">
+            </div>
+
+            <div id="search-button">
+                <button onclick="performSearch()">Google Search</button>
+                <button onclick="performSearch()">I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="Result" style="display:none">
+        <div class="header1">
+            <img src="images/GoogleImage.png" alt="Google Logo" id="logo">
+            <div id="search-bar1">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Search...">
+                <img src="images/google-voice.png">&nbsp;
+                <img src="images/lens.png">&nbsp;
+                <button id="but" onclick="performSearch()"><img src="images/search.png"></button>
+            </div>
+            <div class="icon">
+                <ion-icon name="settings-outline"></ion-icon>&nbsp;
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+        </div>
+        <div class="main1">
+            <div id="search-results"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Google Clone. All rights reserved.</p>
+        <p>Privacy Policy | Terms of Service | About Us</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
