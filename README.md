@@ -3,7 +3,7 @@
 This is a simple real-time chat application built with **Spring Boot** and **WebSocket** technology.  
 It allows multiple users to chat instantly through a live WebSocket connection.
 
-You can checkout the live version of the application at 
+You can checkout the live version of the application at https://spring-boot-websocket-chat-app-production.up.railway.app/
 
 ![image](https://github.com/user-attachments/assets/1bc9a2c4-cff4-46bf-869f-2322a512a301)
 
